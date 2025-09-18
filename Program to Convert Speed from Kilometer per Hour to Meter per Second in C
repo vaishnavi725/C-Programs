@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    double speed_kmh, speed_ms;
+    scanf("%lf", &speed_kmh);
+    speed_ms = speed_kmh / 3.6;
+    printf("Speed in m/s: %.2lf\n", speed_ms);
+    return 0;
+}
