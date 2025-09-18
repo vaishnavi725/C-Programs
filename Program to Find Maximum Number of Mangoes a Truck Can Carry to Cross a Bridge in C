@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    double mango_weight, truck_weight, bridge_limit;
+    int max_mangoes;
+    scanf("%lf %lf %lf", &mango_weight, &truck_weight, &bridge_limit);
+    max_mangoes = (int)((bridge_limit - truck_weight) / mango_weight);
+    printf("Maximum mangoes: %d\n", max_mangoes);
+    return 0;
+}
