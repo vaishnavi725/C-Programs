@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    double height_in, height_cm;
+    scanf("%lf", &height_in);
+    height_cm = height_in * 2.54;
+    printf("Height in cm: %.2lf\n", height_cm);
+    return 0;
+}
