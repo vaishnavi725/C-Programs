@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(){
+    double a,b;
+    if(scanf("%lf %lf",&a,&b)!=2) return 0;
+    double avg = (a+b)/2.0;
+    printf("%.2f\n", avg);
+    return 0;
+}
